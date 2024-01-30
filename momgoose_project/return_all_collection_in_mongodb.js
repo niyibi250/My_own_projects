@@ -1,6 +1,6 @@
 let {MongoClient} = require('mongodb')
 
-let client = new MongoClient('mongodb://localhost:27017/')
+let client = new MongoClient('mongodb://localhost:27017/ericfirstdatabase')
 let name_of_database = 'ericfirstdatabase'
 let name_of_collection = 'products'
 
